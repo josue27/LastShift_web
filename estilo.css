@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("graficos/LateShift_titulo_720.png") ;
+    background-size: auto 100%;
+    background-color: black;
+    min-height: 100vh;
+    
+    width: 100%;
+}
+
+
+.Centro
+{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content:center;
+    margin: 40px auto 5px;
+    max-width: 800px;
+    /* background-color: rgba(0, 0, 255, 0.185); */
+
+}
+
+
+.video {
+    width: 100%;
+    position: relative;
+  }
+.video iframe {
+    display: block;
+    margin: 45px auto;
+    max-height: 60vw;
+    max-width: calc(100% - 20px);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .video iframe {
+      margin: 20px auto;
+    }
+    .frame-top,
+    .frame-bottom {
+      display: none;
+    }
+  
+    .dashingmariachis-logo {
+      margin: 0 auto 40px;
+    }
+  
+    .bottom-text {
+      font-size: 8px;
+    }
+  }
+.botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px 0;
+}
+.botones a
+{
+    max-width: 320px;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    
+    color:white;
+} 
+.botones img {
+    width: 100%;
+  }
