@@ -64,9 +64,13 @@ body{
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
-    
+    font-family: "myFirstFont";
     color:white;
 } 
 .botones img {
     width: 100%;
+  }
+  @font-face {
+    font-family: "myFirstFont";
+    src: url(graficos/Roboto-Black.ttf);
   }
